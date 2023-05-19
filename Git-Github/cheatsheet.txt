@@ -1,0 +1,101 @@
+Comandos más utilizados hasta ahora
+
+ - git init
+
+        Sintaxis: git init [directorio]
+        Descripción: Inicializa un nuevo repositorio Git en el directorio especificado (o en el directorio actual si no se proporciona ninguno). Crea una carpeta oculta .git que contiene todos los archivos necesarios para el control de versiones.
+
+- git clone
+
+        Sintaxis: git clone <URL>
+        Descripción: Crea una copia local de un repositorio remoto en mi máquina. Se descargará todo el historial de commits, ramas y archivos del repositorio remoto.
+
+- git add
+
+        Sintaxis: git add <archivo>
+        Descripción: Agrega archivos al área de preparación (staging area) para ser incluidos en el próximo commit. Puedo especificar un archivo en particular o utilizar . para agregar todos los archivos modificados.
+
+- git commit
+
+        Sintaxis: git commit -m "mensaje"
+        Descripción: Crea un nuevo commit que registra los cambios realizados en los archivos agregados al área de preparación. El mensaje describe los cambios realizados en el commit.
+
+- git push
+
+        Sintaxis: git push <remoto> <rama>
+        Descripción: Envía los commits locales al repositorio remoto especificado y la rama correspondiente. Esto actualiza el historial de commits en el repositorio remoto.
+
+- git pull
+
+        Sintaxis: git pull <remoto> <rama>
+        Descripción: Descarga los cambios más recientes desde el repositorio remoto y los fusiona automáticamente con la rama local actual.
+
+- git branch
+
+        Sintaxis: git branch [nombre]
+        Descripción: Muestra una lista de todas las ramas en el repositorio. Si se proporciona un nombre, crea una nueva rama con ese nombre.
+
+- git checkout
+
+        Sintaxis: git checkout <rama>
+        Descripción: Cambia a la rama especificada y actualiza el directorio de trabajo con los archivos de esa rama. También se puede utilizar para crear una nueva rama y cambiar a ella al mismo tiempo.
+
+- git merge
+
+        Sintaxis: git merge <rama>
+        Descripción: Fusiona la rama especificada con la rama actual. Los cambios de la rama especificada se integran en la rama actual.
+
+- git status
+
+        Sintaxis: git status
+        Descripción: Muestra el estado actual del repositorio. Proporciona información sobre los archivos modificados, agregados o eliminados, y si hay cambios pendientes de ser commiteados.
+
+- git log
+
+        Sintaxis: git log
+        Descripción: Muestra un registro de todos los commits realizados en el repositorio. Muestra detalles como el autor, la fecha y el mensaje del commit.
+
+- git diff
+
+        Sintaxis: git diff
+        Descripción: Muestra las diferencias entre los cambios realizados en los archivos modificados y el último commit realizado. Permite ver las modificaciones antes de agregar y commitear los cambios.
+
+- mkdir
+
+        Sintaxis: mkdir <nombre_directorio>
+        Descripción: Crea un nuevo directorio con el nombre especificado.
+
+- rm
+
+        Sintaxis: rm <archivo>
+        Descripción: Elimina un archivo específico. Si se utiliza con la opción -r, puede eliminar directorios y su contenido de forma recursiva.
+
+- touch
+
+        Sintaxis: touch <archivo>
+        Descripción: Crea un archivo vacío con el nombre especificado o actualiza la fecha de acceso y modificación de un archivo existente.
+
+- ls
+
+        Sintaxis: ls [opciones] [directorio]
+        Descripción: Lista los archivos y directorios en el directorio actual o en el directorio especificado. Algunas opciones comunes son -l (lista detallada), -a (incluye archivos ocultos) y -R (lista recursiva de subdirectorios).
+
+- cd
+
+        Sintaxis: cd [directorio]
+        Descripción: Cambia el directorio de trabajo actual al directorio especificado.
+
+- pwd
+
+        Sintaxis: pwd
+        Descripción: Muestra la ruta completa del directorio actual.
+
+- cp
+
+        Sintaxis: cp <origen> <destino>
+        Descripción: Copia un archivo o directorio desde el origen al destino especificados. Si se utiliza con la opción -r, puede copiar directorios y su contenido de forma recursiva.
+
+- mv
+
+        Sintaxis: mv <origen> <destino>
+        Descripción: Mueve o renombra un archivo o directorio desde el origen al destino especificados.
