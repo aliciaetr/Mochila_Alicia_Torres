@@ -1,0 +1,5 @@
+IP privada: 10.0.2.15
+IP pública 186.106.67.116
+Dirección MAC 08:00:27:f7:ba:9a
+
+Solo la IP pública es la misma en mi máquina host y mi máquina virtual.
